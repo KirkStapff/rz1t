@@ -1,0 +1,328 @@
+[
+  {
+    "config": "configs/dev/owt-u6-1e16.yaml",
+    "arm": "U6",
+    "report": {
+      "status": "hypothetical_whole_slab_schedule_not_cache_optimum",
+      "capacity_blocks": 6,
+      "unique_blocks": 6,
+      "applied_blocks": 6,
+      "batch_size": 1,
+      "rounds": 100,
+      "delivered_tokens": 100,
+      "core_applications_per_round": 1,
+      "resident": true,
+      "slabs_one_based": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "per_block_payloads": [
+        {
+          "weight_bytes": 67880,
+          "index_bytes": 49280
+        },
+        {
+          "weight_bytes": 67880,
+          "index_bytes": 49280
+        },
+        {
+          "weight_bytes": 67880,
+          "index_bytes": 49280
+        },
+        {
+          "weight_bytes": 67880,
+          "index_bytes": 49280
+        },
+        {
+          "weight_bytes": 67880,
+          "index_bytes": 49280
+        },
+        {
+          "weight_bytes": 67880,
+          "index_bytes": 49280
+        }
+      ],
+      "initial_round": {
+        "weight_bytes": 407280,
+        "index_bytes": 295680,
+        "body_bytes": 702960,
+        "load_events": 1,
+        "blocks_loaded": 6
+      },
+      "steady_round": {
+        "weight_bytes": 0,
+        "index_bytes": 0,
+        "body_bytes": 0,
+        "load_events": 0,
+        "blocks_loaded": 0
+      },
+      "finite_total": {
+        "weight_bytes": 407280,
+        "index_bytes": 295680,
+        "body_bytes": 702960,
+        "load_events": 1,
+        "blocks_loaded": 6
+      },
+      "initial_per_token": {
+        "weight_bytes": 407280.0,
+        "index_bytes": 295680.0,
+        "body_bytes": 702960.0,
+        "load_events": 1.0,
+        "blocks_loaded": 6.0
+      },
+      "steady_per_token": {
+        "weight_bytes": 0.0,
+        "index_bytes": 0.0,
+        "body_bytes": 0.0,
+        "load_events": 0.0,
+        "blocks_loaded": 0.0
+      },
+      "finite_average_per_token": {
+        "weight_bytes": 4072.8,
+        "index_bytes": 2956.8,
+        "body_bytes": 7029.6,
+        "load_events": 0.01,
+        "blocks_loaded": 0.06
+      },
+      "event_definition": "one complete slab programming event",
+      "caveat": "Whole-slab replacement is not a six-slot cache traffic lower bound. No head, norm, activation/history traffic, or hardware encoding included.",
+      "shared_resident_norm_bytes_excluded": 3076,
+      "embedding_classifier_bytes_excluded": 154590532,
+      "payload_precision": "actual model array dtypes; no assumed quantization/TSU encoding"
+    }
+  },
+  {
+    "config": "configs/dev/owt-r6x2-1e16.yaml",
+    "arm": "R6x2",
+    "report": {
+      "status": "hypothetical_whole_slab_schedule_not_cache_optimum",
+      "capacity_blocks": 6,
+      "unique_blocks": 6,
+      "applied_blocks": 12,
+      "batch_size": 1,
+      "rounds": 100,
+      "delivered_tokens": 100,
+      "core_applications_per_round": 2,
+      "resident": true,
+      "slabs_one_based": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      ],
+      "per_block_payloads": [
+        {
+          "weight_bytes": 67880,
+          "index_bytes": 49280
+        },
+        {
+          "weight_bytes": 67880,
+          "index_bytes": 49280
+        },
+        {
+          "weight_bytes": 67880,
+          "index_bytes": 49280
+        },
+        {
+          "weight_bytes": 67880,
+          "index_bytes": 49280
+        },
+        {
+          "weight_bytes": 67880,
+          "index_bytes": 49280
+        },
+        {
+          "weight_bytes": 67880,
+          "index_bytes": 49280
+        }
+      ],
+      "initial_round": {
+        "weight_bytes": 407280,
+        "index_bytes": 295680,
+        "body_bytes": 702960,
+        "load_events": 1,
+        "blocks_loaded": 6
+      },
+      "steady_round": {
+        "weight_bytes": 0,
+        "index_bytes": 0,
+        "body_bytes": 0,
+        "load_events": 0,
+        "blocks_loaded": 0
+      },
+      "finite_total": {
+        "weight_bytes": 407280,
+        "index_bytes": 295680,
+        "body_bytes": 702960,
+        "load_events": 1,
+        "blocks_loaded": 6
+      },
+      "initial_per_token": {
+        "weight_bytes": 407280.0,
+        "index_bytes": 295680.0,
+        "body_bytes": 702960.0,
+        "load_events": 1.0,
+        "blocks_loaded": 6.0
+      },
+      "steady_per_token": {
+        "weight_bytes": 0.0,
+        "index_bytes": 0.0,
+        "body_bytes": 0.0,
+        "load_events": 0.0,
+        "blocks_loaded": 0.0
+      },
+      "finite_average_per_token": {
+        "weight_bytes": 4072.8,
+        "index_bytes": 2956.8,
+        "body_bytes": 7029.6,
+        "load_events": 0.01,
+        "blocks_loaded": 0.06
+      },
+      "event_definition": "one complete slab programming event",
+      "caveat": "Whole-slab replacement is not a six-slot cache traffic lower bound. No head, norm, activation/history traffic, or hardware encoding included.",
+      "shared_resident_norm_bytes_excluded": 3076,
+      "embedding_classifier_bytes_excluded": 154590532,
+      "payload_precision": "actual model array dtypes; no assumed quantization/TSU encoding"
+    }
+  },
+  {
+    "config": "configs/dev/owt-u12-1e16.yaml",
+    "arm": "U12",
+    "report": {
+      "status": "hypothetical_whole_slab_schedule_not_cache_optimum",
+      "capacity_blocks": 6,
+      "unique_blocks": 12,
+      "applied_blocks": 12,
+      "batch_size": 1,
+      "rounds": 100,
+      "delivered_tokens": 100,
+      "core_applications_per_round": 1,
+      "resident": false,
+      "slabs_one_based": [
+        [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      ],
+      "per_block_payloads": [
+        {
+          "weight_bytes": 67880,
+          "index_bytes": 49280
+        },
+        {
+          "weight_bytes": 67880,
+          "index_bytes": 49280
+        },
+        {
+          "weight_bytes": 67880,
+          "index_bytes": 49280
+        },
+        {
+          "weight_bytes": 67880,
+          "index_bytes": 49280
+        },
+        {
+          "weight_bytes": 67880,
+          "index_bytes": 49280
+        },
+        {
+          "weight_bytes": 67880,
+          "index_bytes": 49280
+        },
+        {
+          "weight_bytes": 67880,
+          "index_bytes": 49280
+        },
+        {
+          "weight_bytes": 67880,
+          "index_bytes": 49280
+        },
+        {
+          "weight_bytes": 67880,
+          "index_bytes": 49280
+        },
+        {
+          "weight_bytes": 67880,
+          "index_bytes": 49280
+        },
+        {
+          "weight_bytes": 67880,
+          "index_bytes": 49280
+        },
+        {
+          "weight_bytes": 67880,
+          "index_bytes": 49280
+        }
+      ],
+      "initial_round": {
+        "weight_bytes": 814560,
+        "index_bytes": 591360,
+        "body_bytes": 1405920,
+        "load_events": 2,
+        "blocks_loaded": 12
+      },
+      "steady_round": {
+        "weight_bytes": 814560,
+        "index_bytes": 591360,
+        "body_bytes": 1405920,
+        "load_events": 2,
+        "blocks_loaded": 12
+      },
+      "finite_total": {
+        "weight_bytes": 81456000,
+        "index_bytes": 59136000,
+        "body_bytes": 140592000,
+        "load_events": 200,
+        "blocks_loaded": 1200
+      },
+      "initial_per_token": {
+        "weight_bytes": 814560.0,
+        "index_bytes": 591360.0,
+        "body_bytes": 1405920.0,
+        "load_events": 2.0,
+        "blocks_loaded": 12.0
+      },
+      "steady_per_token": {
+        "weight_bytes": 814560.0,
+        "index_bytes": 591360.0,
+        "body_bytes": 1405920.0,
+        "load_events": 2.0,
+        "blocks_loaded": 12.0
+      },
+      "finite_average_per_token": {
+        "weight_bytes": 814560.0,
+        "index_bytes": 591360.0,
+        "body_bytes": 1405920.0,
+        "load_events": 2.0,
+        "blocks_loaded": 12.0
+      },
+      "event_definition": "one complete slab programming event",
+      "caveat": "Whole-slab replacement is not a six-slot cache traffic lower bound. No head, norm, activation/history traffic, or hardware encoding included.",
+      "shared_resident_norm_bytes_excluded": 3076,
+      "embedding_classifier_bytes_excluded": 154590532,
+      "payload_precision": "actual model array dtypes; no assumed quantization/TSU encoding"
+    }
+  }
+]

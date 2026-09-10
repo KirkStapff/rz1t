@@ -1,0 +1,167 @@
+{
+  "protocol": "claim-a-v1",
+  "evaluation_split": "confirmation",
+  "seeds": [
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "arms": [
+    "U6",
+    "R6x2",
+    "U12"
+  ],
+  "steps": 15513,
+  "tokens": 254164992,
+  "confirmation_authorized": false,
+  "h1_authorized": false,
+  "runs": [
+    {
+      "run_id": "claim-a-v1-s7-U6",
+      "arm": "U6",
+      "pair_id": "claim-a-v1-s7",
+      "seed": 7,
+      "config_path": "configs/claim-a/claim-a-v1-u6-s7.yaml",
+      "config_sha256": "d1c84e1885ad897775c68553fb2ab443086ca9fe7c3adeb05df67e691eb2f88f"
+    },
+    {
+      "run_id": "claim-a-v1-s7-R6x2",
+      "arm": "R6x2",
+      "pair_id": "claim-a-v1-s7",
+      "seed": 7,
+      "config_path": "configs/claim-a/claim-a-v1-r6x2-s7.yaml",
+      "config_sha256": "2b4a75373bb63fdfe03b84f0f498d86e5b679f51eee386bd821aeec782a8cf69"
+    },
+    {
+      "run_id": "claim-a-v1-s7-U12",
+      "arm": "U12",
+      "pair_id": "claim-a-v1-s7",
+      "seed": 7,
+      "config_path": "configs/claim-a/claim-a-v1-u12-s7.yaml",
+      "config_sha256": "bc17e3806745796ebf70b39773fae4f9c4534fa97a4cf8b81620521ace1e2518"
+    },
+    {
+      "run_id": "claim-a-v1-s8-U6",
+      "arm": "U6",
+      "pair_id": "claim-a-v1-s8",
+      "seed": 8,
+      "config_path": "configs/claim-a/claim-a-v1-u6-s8.yaml",
+      "config_sha256": "bac6b22ce984b6b2284a11ec56acbafcf74c21e488a546bfad5bf79785cf46f5"
+    },
+    {
+      "run_id": "claim-a-v1-s8-R6x2",
+      "arm": "R6x2",
+      "pair_id": "claim-a-v1-s8",
+      "seed": 8,
+      "config_path": "configs/claim-a/claim-a-v1-r6x2-s8.yaml",
+      "config_sha256": "5b3230bf180f122b3eb021e3e679dba807db84a29ec25940c9b222b704d706f6"
+    },
+    {
+      "run_id": "claim-a-v1-s8-U12",
+      "arm": "U12",
+      "pair_id": "claim-a-v1-s8",
+      "seed": 8,
+      "config_path": "configs/claim-a/claim-a-v1-u12-s8.yaml",
+      "config_sha256": "514c4e07169d24f90531342abaa01c7fa37a4ca81c54d2ce06871787531982c0"
+    },
+    {
+      "run_id": "claim-a-v1-s9-U6",
+      "arm": "U6",
+      "pair_id": "claim-a-v1-s9",
+      "seed": 9,
+      "config_path": "configs/claim-a/claim-a-v1-u6-s9.yaml",
+      "config_sha256": "a0503b0730229fa245f1e61f870e321891e615e7e9869117f54bd48a34a00507"
+    },
+    {
+      "run_id": "claim-a-v1-s9-R6x2",
+      "arm": "R6x2",
+      "pair_id": "claim-a-v1-s9",
+      "seed": 9,
+      "config_path": "configs/claim-a/claim-a-v1-r6x2-s9.yaml",
+      "config_sha256": "413ead1d1f6b2e71a9234a6487ed650ac281f63a24cdf561a4adf59afc95464b"
+    },
+    {
+      "run_id": "claim-a-v1-s9-U12",
+      "arm": "U12",
+      "pair_id": "claim-a-v1-s9",
+      "seed": 9,
+      "config_path": "configs/claim-a/claim-a-v1-u12-s9.yaml",
+      "config_sha256": "cf7023a484d344d23c9ede3d0765760d1535645f09ed98f3ac644a351c5e8d98"
+    },
+    {
+      "run_id": "claim-a-v1-s10-U6",
+      "arm": "U6",
+      "pair_id": "claim-a-v1-s10",
+      "seed": 10,
+      "config_path": "configs/claim-a/claim-a-v1-u6-s10.yaml",
+      "config_sha256": "ccb21f32e21397addb49808bc89769e5bcbee8ebf7e954348923ba2bce0ec14b"
+    },
+    {
+      "run_id": "claim-a-v1-s10-R6x2",
+      "arm": "R6x2",
+      "pair_id": "claim-a-v1-s10",
+      "seed": 10,
+      "config_path": "configs/claim-a/claim-a-v1-r6x2-s10.yaml",
+      "config_sha256": "db4de40f80a740a3962d5ac27766897ed056d928b33eb4a544788b588fb11aae"
+    },
+    {
+      "run_id": "claim-a-v1-s10-U12",
+      "arm": "U12",
+      "pair_id": "claim-a-v1-s10",
+      "seed": 10,
+      "config_path": "configs/claim-a/claim-a-v1-u12-s10.yaml",
+      "config_sha256": "80072ed302a023433ed9b11c882836a456d1ef79c9d197c7c31ac88ef4d8db6a"
+    },
+    {
+      "run_id": "claim-a-v1-s11-U6",
+      "arm": "U6",
+      "pair_id": "claim-a-v1-s11",
+      "seed": 11,
+      "config_path": "configs/claim-a/claim-a-v1-u6-s11.yaml",
+      "config_sha256": "b122c3ebf576374e3d27bcc9b985fe9045c7123b71f6fe6b140305c0f9dc37ba"
+    },
+    {
+      "run_id": "claim-a-v1-s11-R6x2",
+      "arm": "R6x2",
+      "pair_id": "claim-a-v1-s11",
+      "seed": 11,
+      "config_path": "configs/claim-a/claim-a-v1-r6x2-s11.yaml",
+      "config_sha256": "cb9b0ed4b8e2fc725f9ffefa5fb4e043d18e783a06efe2f6409f1d1243190e5f"
+    },
+    {
+      "run_id": "claim-a-v1-s11-U12",
+      "arm": "U12",
+      "pair_id": "claim-a-v1-s11",
+      "seed": 11,
+      "config_path": "configs/claim-a/claim-a-v1-u12-s11.yaml",
+      "config_sha256": "e41731127e8fb5f26d9e4995d82949dd7dadc9a9af9c7f2f30c19e9807210a67"
+    },
+    {
+      "run_id": "claim-a-v1-s12-U6",
+      "arm": "U6",
+      "pair_id": "claim-a-v1-s12",
+      "seed": 12,
+      "config_path": "configs/claim-a/claim-a-v1-u6-s12.yaml",
+      "config_sha256": "b129bdbca18e862cf48e1e50062e975d2468abb4015719836664a0eedcaee126"
+    },
+    {
+      "run_id": "claim-a-v1-s12-R6x2",
+      "arm": "R6x2",
+      "pair_id": "claim-a-v1-s12",
+      "seed": 12,
+      "config_path": "configs/claim-a/claim-a-v1-r6x2-s12.yaml",
+      "config_sha256": "bcd05de7899fb19e2b52ae6661284ac12b49cf190181fb26b2914ea2e9965c99"
+    },
+    {
+      "run_id": "claim-a-v1-s12-U12",
+      "arm": "U12",
+      "pair_id": "claim-a-v1-s12",
+      "seed": 12,
+      "config_path": "configs/claim-a/claim-a-v1-u12-s12.yaml",
+      "config_sha256": "bd52bac961e4990be61130f888e638e86117a141eebf8a2a1b45e804b8247769"
+    }
+  ]
+}

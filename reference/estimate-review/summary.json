@@ -1,0 +1,83 @@
+{
+  "protocol": "estimate-v1",
+  "evidence_status": "independent_estimation_not_confirmation",
+  "complete": true,
+  "missing_run_ids": [],
+  "failures": [],
+  "seeds": [
+    {
+      "seed": 4,
+      "U6": 5.9324922076334925,
+      "R6x2": 5.914566628310731,
+      "U12": 5.897405073638256,
+      "r_minus_u12": 0.01716155467247482,
+      "r_minus_u6": -0.017925579322761287,
+      "u6_minus_u12": 0.03508713399523611,
+      "fraction_recovered": 0.5108875328829964
+    },
+    {
+      "seed": 5,
+      "U6": 5.929430999069647,
+      "R6x2": 5.906460012958248,
+      "U12": 5.897729327001381,
+      "r_minus_u12": 0.008730685956867212,
+      "r_minus_u6": -0.022970986111399583,
+      "u6_minus_u12": 0.031701672068266795,
+      "fraction_recovered": 0.7245985657139333
+    },
+    {
+      "seed": 6,
+      "U6": 5.929277682519298,
+      "R6x2": 5.906943584572495,
+      "U12": 5.896531495737306,
+      "r_minus_u12": 0.010412088835189515,
+      "r_minus_u6": -0.022334097946802522,
+      "u6_minus_u12": 0.03274618678199204,
+      "fraction_recovered": 0.6820366015588909
+    }
+  ],
+  "contrasts": {
+    "r_minus_u12": {
+      "n": 3,
+      "mean": 0.01210144315484385,
+      "sd": 0.004462098759323223,
+      "lower": -0.003884733584541073,
+      "upper": 0.028087619894228772,
+      "critical_t": 6.205346816570706,
+      "confidence": 0.975,
+      "differences": [
+        0.01716155467247482,
+        0.008730685956867212,
+        0.010412088835189515
+      ]
+    },
+    "r_minus_u6": {
+      "n": 3,
+      "mean": -0.021076887793654464,
+      "sd": 0.002747629058405314,
+      "lower": -0.030920704820375584,
+      "upper": -0.011233070766933344,
+      "critical_t": 6.205346816570706,
+      "confidence": 0.975,
+      "differences": [
+        -0.017925579322761287,
+        -0.022970986111399583,
+        -0.022334097946802522
+      ]
+    }
+  },
+  "means": {
+    "U6": 5.93040029640748,
+    "R6x2": 5.909323408613825,
+    "U12": 5.897221965458981,
+    "r_vs_u12_ppl_increase_pct": 1.2174961879639523,
+    "r_vs_u6_ppl_reduction_pct": 2.0856322521864508
+  },
+  "n_complete_triples": 3,
+  "limitations": [
+    "n=3 is a lean descriptive estimate, not a powered non-inferiority test",
+    "Calibration holdout is unused by prior training/eval, but the same 40k-document subset",
+    "Intervals assume seed-level gap normality",
+    "Not H1; do not relabel as confirmation"
+  ]
+}

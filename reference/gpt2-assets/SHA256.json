@@ -1,0 +1,12 @@
+{
+  "encoder.json": {
+    "sha256": "196139668be63f3b5d6574427317ae82f612a97c5d1cdaf36ed2256dbf636783",
+    "bytes": 1042301,
+    "url": "https://openaipublic.blob.core.windows.net/gpt-2/models/124M/encoder.json"
+  },
+  "vocab.bpe": {
+    "sha256": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5",
+    "bytes": 456318,
+    "url": "https://openaipublic.blob.core.windows.net/gpt-2/models/124M/vocab.bpe"
+  }
+}

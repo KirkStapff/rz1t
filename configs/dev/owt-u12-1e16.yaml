@@ -1,0 +1,37 @@
+lane: explore
+seed: 0
+arm: U12
+pair_id: owt-dev-1e16-s0
+run_id: owt-dev-1e16-s0-U12
+model:
+  vocab: 50257
+  sequence: 256
+  n_embed: 384
+  aft_heads: 8
+  aft_ksize: 4
+  linear_fan_in: 4
+  p: 0
+  m: 12
+  k: 1
+  q: 0
+  injection: none
+data:
+  kind: prepared
+  manifest: data/owt-subset-256/manifest.json
+  evaluation_split: development
+training:
+  semantic_budget: 10000000000000000
+  batch_size: 64
+  eval_every: 0
+  checkpoint_every: 1000
+  max_budget_overshoot: 0.01
+optimizer:
+  lr: 0.0003
+  warmup: 100
+  weight_decay: 0.1
+  b1: 0.9
+  b2: 0.95
+  grad_clip: 1.0
+  final_lr_ratio: 0.1
+precision: float32
+accounting_version: semantic-proxy-v1

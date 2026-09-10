@@ -1,0 +1,38 @@
+lane: claim-a
+seed: 12
+arm: U6
+pair_id: claim-a-v1-s12
+run_id: claim-a-v1-s12-U6
+model:
+  vocab: 50257
+  sequence: 256
+  n_embed: 384
+  aft_heads: 8
+  aft_ksize: 4
+  linear_fan_in: 4
+  p: 0
+  m: 6
+  k: 1
+  q: 0
+  injection: none
+data:
+  kind: prepared
+  manifest: data/owt-subset-256/manifest.json
+  evaluation_split: confirmation
+training:
+  steps: 15513
+  batch_size: 64
+  eval_every: 1000
+  checkpoint_every: 1000
+  diagnostic_probe_batches: 8
+  diagnostic_probe_seed: 1729
+optimizer:
+  lr: 0.0003
+  warmup: 100
+  weight_decay: 0.1
+  b1: 0.9
+  b2: 0.95
+  grad_clip: 1.0
+  final_lr_ratio: 0.1
+precision: float32
+accounting_version: semantic-proxy-v1

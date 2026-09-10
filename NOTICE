@@ -1,0 +1,12 @@
+rz1t
+Copyright 2026 Kirk Stapff
+
+This product includes unmodified source from Extropic's sparse-transformers
+repository (Apache-2.0), vendored at commit
+13051e90df9669be5b8f9f34fb097329fa82f674.
+
+See `upstream/LICENSE` and `upstream/research/z1t/LICENSE`.
+The original project is available at https://github.com/extropic-ai/sparse-transformers
+and described at https://extropic.ai/writing/z1t/
+
+rz1t is an independent research fork. It is not affiliated with Extropic.

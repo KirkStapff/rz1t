@@ -1,0 +1,110 @@
+[
+  {
+    "arm": "U6",
+    "seed": 4,
+    "nll": 5.9324922076334925,
+    "step": 15513,
+    "tokens": 254164992,
+    "eval": "calibration",
+    "status": "completed",
+    "run_id": "estimate-v1-s4-U6",
+    "sha256": "4f016dd1ff8f51150f5f074dd3cb27a01590928dc8bc1e79cc8ae543868e0efa",
+    "bytes": 569324
+  },
+  {
+    "arm": "R6x2",
+    "seed": 4,
+    "nll": 5.914566628310731,
+    "step": 15513,
+    "tokens": 254164992,
+    "eval": "calibration",
+    "status": "completed",
+    "run_id": "estimate-v1-s4-R6x2",
+    "sha256": "8739c79f296429d8bfc68b53fd4d1e12393e76374903a6aa20eb240a58a8beb9",
+    "bytes": 569208
+  },
+  {
+    "arm": "U12",
+    "seed": 4,
+    "nll": 5.897405073638256,
+    "step": 15513,
+    "tokens": 254164992,
+    "eval": "calibration",
+    "status": "completed",
+    "run_id": "estimate-v1-s4-U12",
+    "sha256": "25062863e07ace532ad9a7c157a230a648088514b45e875964c63c143a1e9f02",
+    "bytes": 568867
+  },
+  {
+    "arm": "U6",
+    "seed": 5,
+    "nll": 5.929430999069647,
+    "step": 15513,
+    "tokens": 254164992,
+    "eval": "calibration",
+    "status": "completed",
+    "run_id": "estimate-v1-s5-U6",
+    "sha256": "209fa6c6f5b0e3a116a0a8d9639336d04cbee50f76c0fd993979134fcc90db66",
+    "bytes": 569067
+  },
+  {
+    "arm": "R6x2",
+    "seed": 5,
+    "nll": 5.906460012958248,
+    "step": 15513,
+    "tokens": 254164992,
+    "eval": "calibration",
+    "status": "completed",
+    "run_id": "estimate-v1-s5-R6x2",
+    "sha256": "daa5e0dca5e75e4807c6d3ef1b187ab2012e703ae09d5227b5e3c4c3f5fc39ab",
+    "bytes": 569193
+  },
+  {
+    "arm": "U12",
+    "seed": 5,
+    "nll": 5.897729327001381,
+    "step": 15513,
+    "tokens": 254164992,
+    "eval": "calibration",
+    "status": "completed",
+    "run_id": "estimate-v1-s5-U12",
+    "sha256": "1d22d1e8d00555b3ed0ddf0bf5ed273460230d53f88b660a996269dd0d0d9d7d",
+    "bytes": 568836
+  },
+  {
+    "arm": "U6",
+    "seed": 6,
+    "nll": 5.929277682519298,
+    "step": 15513,
+    "tokens": 254164992,
+    "eval": "calibration",
+    "status": "completed",
+    "run_id": "estimate-v1-s6-U6",
+    "sha256": "022a64451e3dfe43e83f78230130eafb2c4382cc8ed03829d87b2fdee037dcab",
+    "bytes": 569204
+  },
+  {
+    "arm": "R6x2",
+    "seed": 6,
+    "nll": 5.906943584572495,
+    "step": 15513,
+    "tokens": 254164992,
+    "eval": "calibration",
+    "status": "completed",
+    "run_id": "estimate-v1-s6-R6x2",
+    "sha256": "183ec37127365b855dac9431aa22f9a07a41412f596eab110c52c8e46f0bdb9b",
+    "bytes": 569174
+  },
+  {
+    "arm": "U12",
+    "seed": 6,
+    "nll": 5.896531495737306,
+    "step": 15513,
+    "tokens": 254164992,
+    "eval": "calibration",
+    "status": "completed",
+    "run_id": "estimate-v1-s6-U12",
+    "sha256": "93c4d1c3ddf432c581c263637e2724df10e265bec1bfe94e73eafeac4ff8f106",
+    "bytes": 568941
+  }
+]

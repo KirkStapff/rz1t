@@ -1,0 +1,91 @@
+{
+  "protocol": "estimate-v1",
+  "evaluation_split": "calibration",
+  "seeds": [
+    4,
+    5,
+    6
+  ],
+  "arms": [
+    "U6",
+    "R6x2",
+    "U12"
+  ],
+  "steps": 15513,
+  "tokens": 254164992,
+  "confirmation_authorized": false,
+  "runs": [
+    {
+      "run_id": "estimate-v1-s4-U6",
+      "arm": "U6",
+      "pair_id": "estimate-v1-s4",
+      "seed": 4,
+      "config_path": "configs/calibration/estimate-v1-u6-s4.yaml",
+      "config_sha256": "7423bd4d8026a6e60cec4d66e3745b843531999e84e9cad72c811726ccf61c78"
+    },
+    {
+      "run_id": "estimate-v1-s4-R6x2",
+      "arm": "R6x2",
+      "pair_id": "estimate-v1-s4",
+      "seed": 4,
+      "config_path": "configs/calibration/estimate-v1-r6x2-s4.yaml",
+      "config_sha256": "934487d696e1f986e1ee23efde1a09a9f95782a7d316740169cb10439c53ead1"
+    },
+    {
+      "run_id": "estimate-v1-s4-U12",
+      "arm": "U12",
+      "pair_id": "estimate-v1-s4",
+      "seed": 4,
+      "config_path": "configs/calibration/estimate-v1-u12-s4.yaml",
+      "config_sha256": "13452c59a63f0cc6a95c9838ac357c20ecd479f09da4a6a7f27e9f84ffd332c3"
+    },
+    {
+      "run_id": "estimate-v1-s5-U6",
+      "arm": "U6",
+      "pair_id": "estimate-v1-s5",
+      "seed": 5,
+      "config_path": "configs/calibration/estimate-v1-u6-s5.yaml",
+      "config_sha256": "340f9ca45bbca4ddee458972fb46d9cc61978bd7c335abc845a0f09dec88583c"
+    },
+    {
+      "run_id": "estimate-v1-s5-R6x2",
+      "arm": "R6x2",
+      "pair_id": "estimate-v1-s5",
+      "seed": 5,
+      "config_path": "configs/calibration/estimate-v1-r6x2-s5.yaml",
+      "config_sha256": "ce6d4cb3a075eac1c7771cbc07a9e29a487496fff69e2910f67bf9245bab7adf"
+    },
+    {
+      "run_id": "estimate-v1-s5-U12",
+      "arm": "U12",
+      "pair_id": "estimate-v1-s5",
+      "seed": 5,
+      "config_path": "configs/calibration/estimate-v1-u12-s5.yaml",
+      "config_sha256": "bdb58ac6a83e63778c61c1a16981b4b7c4515f16c015932346adf967e545079d"
+    },
+    {
+      "run_id": "estimate-v1-s6-U6",
+      "arm": "U6",
+      "pair_id": "estimate-v1-s6",
+      "seed": 6,
+      "config_path": "configs/calibration/estimate-v1-u6-s6.yaml",
+      "config_sha256": "bf279d2553ff87b5afc875938d083c52ffb8d4a7f8d44fc9baf72f37e992d476"
+    },
+    {
+      "run_id": "estimate-v1-s6-R6x2",
+      "arm": "R6x2",
+      "pair_id": "estimate-v1-s6",
+      "seed": 6,
+      "config_path": "configs/calibration/estimate-v1-r6x2-s6.yaml",
+      "config_sha256": "ad3ae1c03e4dbc672cc05bf42bcdf2480e4320eedbb05245448d8310200b00d6"
+    },
+    {
+      "run_id": "estimate-v1-s6-U12",
+      "arm": "U12",
+      "pair_id": "estimate-v1-s6",
+      "seed": 6,
+      "config_path": "configs/calibration/estimate-v1-u12-s6.yaml",
+      "config_sha256": "4c1234557d69fb965f7f12b540fb511807d962e6eef31b906b78148c8f92e2e9"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "config_sha256": "e9040d51e2b2dded92977188a5ba521b6fa3339ebd64c1f1fd94e1102b64772f",
+  "data": {
+    "kind": "prepared",
+    "manifest_sha256": "53a5313d3fb3ae3a95e1a854d929524390e37ce05f32598e783e01014d3ce364",
+    "source_sha256": "c98854af7dae63b01eaf03d29a1d6b66236b312b76ca928d6d7c75987474f588",
+    "tokenizer": {
+      "asset_authority": "caller-supplied pins; not independently authenticated",
+      "assets_sha256": {
+        "encoder_json": "196139668be63f3b5d6574427317ae82f612a97c5d1cdaf36ed2256dbf636783",
+        "vocab_bpe": "1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5"
+      },
+      "implementation": "tiktoken",
+      "kind": "gpt2",
+      "mergeable_ranks_sha256": "74f74f2f2db38f35dcfa003aec9f6b7d7120b41a714fb394976a422c9e9074f1",
+      "pattern": "'s|'t|'re|'ve|'m|'ll|'d| ?\\p{L}+| ?\\p{N}+| ?[^\\s\\p{L}\\p{N}]+|\\s+(?!\\S)|\\s+",
+      "special_token_policy": "encode_ordinary; no EOS appended",
+      "version": "0.12.0",
+      "vocab_size": 50257
+    },
+    "version": "rz1t-documents-v1"
+  },
+  "environment": {
+    "XLA_FLAGS": "",
+    "devices": [
+      "NVIDIA H100 80GB HBM3"
+    ],
+    "jax_default_matmul_precision": "None",
+    "jax_enable_x64": false,
+    "packages": {
+      "equinox": "0.13.8",
+      "jax": "0.11.1",
+      "jaxlib": "0.11.1",
+      "numpy": "2.5.3",
+      "optax": "0.2.8"
+    },
+    "platform": "Linux-6.8.0-90-generic-x86_64-with-glibc2.35",
+    "python": "3.12.14"
+  },
+  "source": {
+    "rz1t/checkpoint.py": "acda6cedad9b1db6af4d4bed64813a0ffc440779572963ebdf65bb4183641e67",
+    "rz1t/config.py": "e3992266239c1fe41325f9360f69e59d2e6eb8d37ecf86769c9ad721061780cb",
+    "rz1t/conventions.py": "e9a00d99333eb642e298b9895b0cfff3b75b321dbbf4bf8273aa8269430725a0",
+    "rz1t/data.py": "7121b5ea84dbe0a358ad979a5f56aa3ddfbc9226eeaca8ee158ab89a0692eb78",
+    "rz1t/flops.py": "67e0dec9a9d54ac6b20bccaea2556272ffb957af43217e3f4dd1077025994918",
+    "rz1t/model.py": "aea5c6a679edb7d9ad6b7157762de73299a515786edf0774ee42db861c091361",
+    "rz1t/train.py": "5d618c4ec1f00bc126521d8826373b2091081eb84126366e38e1671ab9c056dd",
+    "z1t/components.py": "12d30188ce5b65da8a249767e41ebb7d78286a1f83fdd635afad3d5c794dab7b",
+    "z1t/model.py": "542374ffff99130240fc04be692b803ecc7c379c6188b3b9b7528db385516a68"
+  }
+}

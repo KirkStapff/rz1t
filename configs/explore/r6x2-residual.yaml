@@ -1,0 +1,28 @@
+lane: explore
+seed: 0
+arm: R6x2-residual
+model:
+  vocab: 16
+  sequence: 8
+  n_embed: 8
+  aft_heads: 2
+  aft_ksize: 2
+  linear_fan_in: 4
+  p: 0
+  m: 1
+  k: 2
+  q: 0
+  injection: residual
+data:
+  kind: synthetic
+  seed: 0
+  train_windows: 16
+  eval_windows: 4
+training:
+  steps: 4
+  batch_size: 2
+  eval_every: 2
+  checkpoint_every: 2
+optimizer:
+  lr: 0.001
+  warmup: 1

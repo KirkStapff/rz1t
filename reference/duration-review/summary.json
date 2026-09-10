@@ -1,0 +1,3620 @@
+{
+  "status": "one_seed_development_not_confirmation",
+  "arms": {
+    "U6": {
+      "final": {
+        "accounting_version": "semantic-proxy-v1",
+        "arm": "U6",
+        "budget": 29813943434812416,
+        "budget_overshoot_fraction": 0.0,
+        "checkpoint": {
+          "directory": "step-000000015513-305c547fe9d441ab960c7540e886c7f7",
+          "manifest_sha256": "f378e8e3fea92dfb270f0ba4d913a745d1b18da96e837df373f477d578341f10"
+        },
+        "checkpoint_selection": "final_budget",
+        "config_sha256": "1f2a20a1c6df950c3b4d3159ef92b9bc25ed70f9cf6c2c4247a4509e1cc34d16",
+        "diagnostics": {
+          "development": {
+            "batches": 50,
+            "finite": true,
+            "nll": 5.754108524766507,
+            "position_bins": [
+              {
+                "end": 64,
+                "nll": 5.783259400684627,
+                "start": 0,
+                "tokens": 202496
+              },
+              {
+                "end": 128,
+                "nll": 5.740109897013777,
+                "start": 64,
+                "tokens": 202496
+              },
+              {
+                "end": 256,
+                "nll": 5.746532400683812,
+                "start": 128,
+                "tokens": 404992
+              }
+            ],
+            "tokens": 809984
+          },
+          "evaluation_split": "development",
+          "finite": true,
+          "probe_batches": 8,
+          "probe_sampling": "fixed random windows with replacement",
+          "probe_seed": 1729,
+          "train_probe": {
+            "batches": 8,
+            "finite": true,
+            "nll": 5.6544711699207255,
+            "position_bins": [
+              {
+                "end": 64,
+                "nll": 5.670953733992064,
+                "start": 0,
+                "tokens": 32768
+              },
+              {
+                "end": 128,
+                "nll": 5.606769943369727,
+                "start": 64,
+                "tokens": 32768
+              },
+              {
+                "end": 256,
+                "nll": 5.670080501160555,
+                "start": 128,
+                "tokens": 65536
+              }
+            ],
+            "tokens": 131072
+          },
+          "version": "duration-diagnostics-v1"
+        },
+        "elapsed_seconds": 1316.823305381462,
+        "eval_tokens": 809984,
+        "evaluation_seconds": 21.992666048929095,
+        "evaluation_split": "development",
+        "evidence_status": "development_not_confirmatory",
+        "executed_work_estimate": 29813943434812416,
+        "nll": 5.754108524766507,
+        "pair_id": "duration-v1-s3",
+        "parameter_counts": {
+          "body": 102589,
+          "classifier": 19348945,
+          "embedding": 19298688,
+          "indices": 73920,
+          "pe": 98304,
+          "total_trainable": 38750222
+        },
+        "run_id": "duration-v1-s3-U6",
+        "semantic_work": 29813943434812416,
+        "status": "completed",
+        "step": 15513,
+        "tokens": 254164992,
+        "training_seconds": 1229.4220901038498,
+        "work_units": "estimated semantic arithmetic/proxy units (not device FLOPs)"
+      },
+      "evaluations": [
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 6.422941026873016,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 6.464671581783408,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 6.416772936829913,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 6.40515979443937,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 6.514255138532462,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 6.54740759631386,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 6.467446058872156,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 6.5210834494719165,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 6.422941026873016,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 1921868332032000,
+          "semantic_work": 1921868332032000,
+          "step": 1000,
+          "tokens": 16384000,
+          "train_nll": 6.43695068359375
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 6.169975913376412,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 6.203119966956197,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 6.1647089430838635,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 6.156037371732793,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 6.213350136709778,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 6.241401280654827,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 6.165098612429574,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 6.223450326877355,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 6.169975913376412,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 3843736664064000,
+          "semantic_work": 3843736664064000,
+          "step": 2000,
+          "tokens": 32768000,
+          "train_nll": 6.150204658508301
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 6.05117734824631,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 6.079482999492517,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 6.045091508076481,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 6.040067442708122,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 6.060782083917729,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 6.0894728538551135,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 6.01570360698679,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 6.068975937414507,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 6.05117734824631,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 5765604996096000,
+          "semantic_work": 5765604996096000,
+          "step": 3000,
+          "tokens": 49152000,
+          "train_nll": 5.997798442840576
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.980613881341792,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 6.003686939150698,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.975307244569647,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.971730670823413,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.960896823427902,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.982646562100854,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.914412842117599,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.973263944746577,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.980613881341792,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 7687473328128000,
+          "semantic_work": 7687473328128000,
+          "step": 4000,
+          "tokens": 65536000,
+          "train_nll": 5.886786460876465
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.928658775332962,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.946870703638711,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.922707428757747,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.922528484467695,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.891237710628047,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.906999923477997,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.847548925841693,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.90520099659625,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.928658775332962,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 9609341660160000,
+          "semantic_work": 9609341660160000,
+          "step": 5000,
+          "tokens": 81920000,
+          "train_nll": 5.977231025695801
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.889783575963087,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.907181698774775,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.882168639251107,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.884891982913234,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.839599104860099,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.853620623252937,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.7940297807363095,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.855373007725575,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.889783575963087,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 11531209992192000,
+          "semantic_work": 11531209992192000,
+          "step": 6000,
+          "tokens": 98304000,
+          "train_nll": 5.8121724128723145
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.856508319946088,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.875112473850484,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.84666931477061,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.85212574558163,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.794157946416817,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.80717524656211,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.748241995926946,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.810607271589106,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.856508319946088,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 13453078324224000,
+          "semantic_work": 13453078324224000,
+          "step": 7000,
+          "tokens": 114688000,
+          "train_nll": 5.7940802574157715
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.83283554775877,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.8532584939298,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.821905541927206,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.828089077589038,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.761657386789011,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.774994036277349,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.715833460504655,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.77790102518702,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.83283554775877,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 15374946656256000,
+          "semantic_work": 15374946656256000,
+          "step": 8000,
+          "tokens": 131072000,
+          "train_nll": 5.807776927947998
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.81194291970523,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.835558085132498,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.79953437185035,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.806339610919036,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.733424019525046,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.746648144049686,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.684917715865595,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.751065109092451,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.81194291970523,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 17296814988288000,
+          "semantic_work": 17296814988288000,
+          "step": 9000,
+          "tokens": 147456000,
+          "train_nll": 5.673233985900879
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.795615372979453,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.820100925376523,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.782499262324844,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.7899306521082226,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.707470651972471,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.720225467637647,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.660525024570234,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.7245660578410025,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.795615372979453,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 19218683320320000,
+          "semantic_work": 19218683320320000,
+          "step": 10000,
+          "tokens": 163840000,
+          "train_nll": 5.747384071350098
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.7833695106476775,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.808859139049777,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.770181494693162,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.777218704423885,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.690297839251798,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.704727046984772,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.643547382198449,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.706458463911986,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.7833695106476775,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 21140551652352000,
+          "semantic_work": 21140551652352000,
+          "step": 11000,
+          "tokens": 180224000,
+          "train_nll": 5.6569929122924805
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.773143916074116,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.799902041930135,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.759701846685501,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.766485887840414,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.6789906487829285,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.694201925347443,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.631196847163665,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.695281911310303,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.773143916074116,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 23062419984384000,
+          "semantic_work": 23062419984384000,
+          "step": 12000,
+          "tokens": 196608000,
+          "train_nll": 5.654775619506836
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.765754272573181,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.793414816763087,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.7521203355486925,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.758740968990473,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.669807941585532,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.685061563955969,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.623049027519301,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.685560587433429,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.765754272573181,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 24984288316416000,
+          "semantic_work": 24984288316416000,
+          "step": 13000,
+          "tokens": 212992000,
+          "train_nll": 5.6731977462768555
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.760486283554141,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.788558471097827,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.746738660905167,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.753324001106786,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.662320498342524,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.678122418197745,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.614875106068212,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.67814223455207,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.760486283554141,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 26906156648448000,
+          "semantic_work": 26906156648448000,
+          "step": 14000,
+          "tokens": 229376000,
+          "train_nll": 5.719151496887207
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.756281846271788,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.785126354433502,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.742471701673947,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.748764664489851,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.656679566625826,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.672010488204251,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.609092983802839,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.672807397248107,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.756281846271788,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 28828024980480000,
+          "semantic_work": 28828024980480000,
+          "step": 15000,
+          "tokens": 245760000,
+          "train_nll": 5.691781997680664
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.754108524766507,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.783259400684627,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.740109897013777,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.746532400683812,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.6544711699207255,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.670953733992064,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.606769943369727,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.670080501160555,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.754108524766507,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 29813943434812416,
+          "semantic_work": 29813943434812416,
+          "step": 15513,
+          "tokens": 254164992,
+          "train_nll": 5.770875930786133
+        }
+      ]
+    },
+    "R6x2": {
+      "final": {
+        "accounting_version": "semantic-proxy-v1",
+        "arm": "R6x2",
+        "budget": 30004512517453824,
+        "budget_overshoot_fraction": 0.0,
+        "checkpoint": {
+          "directory": "step-000000015513-fae20d99f7b848a4be3520fcc8449d73",
+          "manifest_sha256": "465569313631ac227bff13b8d2aa454f65b071d566ddb943bf1d4bbd0ecfd171"
+        },
+        "checkpoint_selection": "final_budget",
+        "config_sha256": "bdac9728be4b1c8bc490e6851415f1f8c1ddb5f656157713d40b14315f73c203",
+        "diagnostics": {
+          "development": {
+            "batches": 50,
+            "finite": true,
+            "nll": 5.728966628918931,
+            "position_bins": [
+              {
+                "end": 64,
+                "nll": 5.7644458479270355,
+                "start": 0,
+                "tokens": 202496
+              },
+              {
+                "end": 128,
+                "nll": 5.713591421601114,
+                "start": 64,
+                "tokens": 202496
+              },
+              {
+                "end": 256,
+                "nll": 5.718914623073786,
+                "start": 128,
+                "tokens": 404992
+              }
+            ],
+            "tokens": 809984
+          },
+          "evaluation_split": "development",
+          "finite": true,
+          "probe_batches": 8,
+          "probe_sampling": "fixed random windows with replacement",
+          "probe_seed": 1729,
+          "train_probe": {
+            "batches": 8,
+            "finite": true,
+            "nll": 5.639778424671022,
+            "position_bins": [
+              {
+                "end": 64,
+                "nll": 5.668451215555251,
+                "start": 0,
+                "tokens": 32768
+              },
+              {
+                "end": 128,
+                "nll": 5.588973549594812,
+                "start": 64,
+                "tokens": 32768
+              },
+              {
+                "end": 256,
+                "nll": 5.650844466767012,
+                "start": 128,
+                "tokens": 65536
+              }
+            ],
+            "tokens": 131072
+          },
+          "version": "duration-diagnostics-v1"
+        },
+        "elapsed_seconds": 2087.6982265207916,
+        "eval_tokens": 809984,
+        "evaluation_seconds": 31.755481796339154,
+        "evaluation_split": "development",
+        "evidence_status": "development_not_confirmatory",
+        "executed_work_estimate": 30004512517453824,
+        "nll": 5.728966628918931,
+        "pair_id": "duration-v1-s3",
+        "parameter_counts": {
+          "body": 102589,
+          "classifier": 19348945,
+          "embedding": 19298688,
+          "indices": 73920,
+          "pe": 98304,
+          "total_trainable": 38750222
+        },
+        "run_id": "duration-v1-s3-R6x2",
+        "semantic_work": 30004512517453824,
+        "status": "completed",
+        "step": 15513,
+        "tokens": 254164992,
+        "training_seconds": 1998.3901374414563,
+        "work_units": "estimated semantic arithmetic/proxy units (not device FLOPs)"
+      },
+      "evaluations": [
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 6.405457801534058,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 6.448249819020914,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 6.3985103129182015,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 6.387535537098559,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 6.4976233591660275,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 6.531286056750105,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 6.451357361031114,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 6.503925009441446,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 6.405457801534058,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 1934152808448000,
+          "semantic_work": 1934152808448000,
+          "step": 1000,
+          "tokens": 16384000,
+          "train_nll": 6.4247283935546875
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 6.157655307525055,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 6.192239642496469,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 6.152064909112985,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 6.1431583392453835,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 6.204136862383166,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 6.234370829843101,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 6.15560530644143,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 6.213285656624066,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 6.157655307525055,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 3868305616896000,
+          "semantic_work": 3868305616896000,
+          "step": 2000,
+          "tokens": 32768000,
+          "train_nll": 6.138968467712402
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 6.040422426841626,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 6.069686555924123,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 6.034424293072783,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 6.0287894291847985,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 6.055975669514737,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 6.087236989333178,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 6.010900536319241,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 6.062882576203265,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 6.040422426841626,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 5802458425344000,
+          "semantic_work": 5802458425344000,
+          "step": 3000,
+          "tokens": 49152000,
+          "train_nll": 5.9904985427856445
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.968135804421235,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.992550584408732,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.9628614747140904,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.958565579281058,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.957179798424477,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.983376113508712,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.909592495998368,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.967875292095414,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.968135804421235,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 7736611233792000,
+          "semantic_work": 7736611233792000,
+          "step": 4000,
+          "tokens": 65536000,
+          "train_nll": 5.875969886779785
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.914005486261071,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.935067843064176,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.907277134662746,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.906838483658682,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.8867265486151155,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.908753281852114,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.841213119609165,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.898469896499591,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.914005486261071,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 9670764042240000,
+          "semantic_work": 9670764042240000,
+          "step": 5000,
+          "tokens": 81920000,
+          "train_nll": 5.971580505371094
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.872979787028219,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.895665156659724,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.863624895381236,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.866314548035959,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.833543198714324,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.856290372626972,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.785180762657546,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.846350829786388,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.872979787028219,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 11604916850688000,
+          "semantic_work": 11604916850688000,
+          "step": 6000,
+          "tokens": 98304000,
+          "train_nll": 5.802460193634033
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.838348062476732,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.863577087057752,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.8273105450297145,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.831252308909731,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.786712550921948,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.809581334360701,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.738636754271283,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.7993160575279035,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.838348062476732,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 13539069659136000,
+          "semantic_work": 13539069659136000,
+          "step": 7000,
+          "tokens": 114688000,
+          "train_nll": 5.782008647918701
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.813490303629755,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.8406193524224665,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.801740755768571,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.805800553163992,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.75319637173925,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.776055539550725,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.705217902061122,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.765756022672576,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.813490303629755,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 15473222467584000,
+          "semantic_work": 15473222467584000,
+          "step": 8000,
+          "tokens": 131072000,
+          "train_nll": 5.797867298126221
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.791066349785735,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.8212589196879625,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.778000774796859,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.782502852329059,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.723385439325284,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.7473130102371215,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.672380735632032,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.736924005715991,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.791066349785735,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 17407375276032000,
+          "semantic_work": 17407375276032000,
+          "step": 9000,
+          "tokens": 147456000,
+          "train_nll": 5.663323402404785
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.773618494547249,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.804226242255433,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.759882201345263,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.765182767294149,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.696333923617203,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.719594150585181,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.647009460997651,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.7093660414429905,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.773618494547249,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 19341528084480000,
+          "semantic_work": 19341528084480000,
+          "step": 10000,
+          "tokens": 163840000,
+          "train_nll": 5.732978820800781
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.760263446840609,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.792222249036709,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.7463724667797464,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.751229535772992,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.677963912679843,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.70341886816459,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.628916530484275,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.689760126035253,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.760263446840609,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 21275680892928000,
+          "semantic_work": 21275680892928000,
+          "step": 11000,
+          "tokens": 180224000,
+          "train_nll": 5.641530513763428
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.749024224504663,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.78212119159012,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.734772709936525,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.739601498246005,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.665584033013147,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.692615351195855,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.615064713383617,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.677328033736558,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.749024224504663,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 23209833701376000,
+          "semantic_work": 23209833701376000,
+          "step": 12000,
+          "tokens": 196608000,
+          "train_nll": 5.637627601623535
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.741311906102819,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.775205111459567,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.726663385596781,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.731689563677464,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.656022402881717,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.683344238823338,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.606274384677818,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.667235494012857,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.741311906102819,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 25143986509824000,
+          "semantic_work": 25143986509824000,
+          "step": 13000,
+          "tokens": 212992000,
+          "train_nll": 5.664490222930908
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.735653411035394,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.770100453810816,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.720711585694709,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.725900802318026,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.647987360769548,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.6758369945018785,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.597526781857596,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.659292833359359,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.735653411035394,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 27078139318272000,
+          "semantic_work": 27078139318272000,
+          "step": 14000,
+          "tokens": 229376000,
+          "train_nll": 5.693631649017334
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.731368419673063,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.766518231920483,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.716316690132747,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.721319378319511,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.642056033530025,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.669741257908754,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.591356547251053,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.653563164480147,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.731368419673063,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 29012292126720000,
+          "semantic_work": 29012292126720000,
+          "step": 15000,
+          "tokens": 245760000,
+          "train_nll": 5.666359901428223
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.728966628918931,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.7644458479270355,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.713591421601114,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.718914623073786,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.639778424671022,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.668451215555251,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.588973549594812,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.650844466767012,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.728966628918931,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 30004512517453824,
+          "semantic_work": 30004512517453824,
+          "step": 15513,
+          "tokens": 254164992,
+          "train_nll": 5.750957489013672
+        }
+      ]
+    },
+    "U12": {
+      "final": {
+        "accounting_version": "semantic-proxy-v1",
+        "arm": "U12",
+        "budget": 30004512517453824,
+        "budget_overshoot_fraction": 0.0,
+        "checkpoint": {
+          "directory": "step-000000015513-bef4f391b0da433baf359c6c738f0117",
+          "manifest_sha256": "16b1c2a7c40d6ce2f4972e21fb47c4dc79aefc6669a2a82599ab5c7cd6ec47b2"
+        },
+        "checkpoint_selection": "final_budget",
+        "config_sha256": "b9393fdc3d28927c61e596bd9c7cbd6849300448d14d89250e3988cbaa25d300",
+        "diagnostics": {
+          "development": {
+            "batches": 50,
+            "finite": true,
+            "nll": 5.722265739099555,
+            "position_bins": [
+              {
+                "end": 64,
+                "nll": 5.751347495448998,
+                "start": 0,
+                "tokens": 202496
+              },
+              {
+                "end": 128,
+                "nll": 5.710400839011254,
+                "start": 64,
+                "tokens": 202496
+              },
+              {
+                "end": 256,
+                "nll": 5.713657310968983,
+                "start": 128,
+                "tokens": 404992
+              }
+            ],
+            "tokens": 809984
+          },
+          "evaluation_split": "development",
+          "finite": true,
+          "probe_batches": 8,
+          "probe_sampling": "fixed random windows with replacement",
+          "probe_seed": 1729,
+          "train_probe": {
+            "batches": 8,
+            "finite": true,
+            "nll": 5.62618906341595,
+            "position_bins": [
+              {
+                "end": 64,
+                "nll": 5.646298892497725,
+                "start": 0,
+                "tokens": 32768
+              },
+              {
+                "end": 128,
+                "nll": 5.578026080016571,
+                "start": 64,
+                "tokens": 32768
+              },
+              {
+                "end": 256,
+                "nll": 5.640215640574752,
+                "start": 128,
+                "tokens": 65536
+              }
+            ],
+            "tokens": 131072
+          },
+          "version": "duration-diagnostics-v1"
+        },
+        "elapsed_seconds": 2114.7585591282696,
+        "eval_tokens": 809984,
+        "evaluation_seconds": 32.64187576249242,
+        "evaluation_split": "development",
+        "evidence_status": "development_not_confirmatory",
+        "executed_work_estimate": 30004512517453824,
+        "nll": 5.722265739099555,
+        "pair_id": "duration-v1-s3",
+        "parameter_counts": {
+          "body": 204409,
+          "classifier": 19348945,
+          "embedding": 19298688,
+          "indices": 147840,
+          "pe": 98304,
+          "total_trainable": 38852042
+        },
+        "run_id": "duration-v1-s3-U12",
+        "semantic_work": 30004512517453824,
+        "status": "completed",
+        "step": 15513,
+        "tokens": 254164992,
+        "training_seconds": 2005.4463738314807,
+        "work_units": "estimated semantic arithmetic/proxy units (not device FLOPs)"
+      },
+      "evaluations": [
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 6.403044853100433,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 6.446895788019869,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 6.396736816304127,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 6.384273404038868,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 6.494451545760967,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 6.531808846702916,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 6.446023585944204,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 6.499986875198374,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 6.403044853100433,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 1934152808448000,
+          "semantic_work": 1934152808448000,
+          "step": 1000,
+          "tokens": 16384000,
+          "train_nll": 6.419028282165527
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 6.152697281273819,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 6.18721839661949,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 6.148349192485628,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 6.1376107679950795,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 6.197104673457943,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 6.229453544146963,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 6.1500045025895815,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 6.204480323547614,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 6.152697281273819,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 3868305616896000,
+          "semantic_work": 3868305616896000,
+          "step": 2000,
+          "tokens": 32768000,
+          "train_nll": 6.133730888366699
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 6.033032891062688,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 6.060355149336658,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 6.02901923530011,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 6.021378589806991,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 6.046238355029345,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 6.077043899655109,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 6.003399944966077,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 6.052254787748097,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 6.033032891062688,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 5802458425344000,
+          "semantic_work": 5802458425344000,
+          "step": 3000,
+          "tokens": 49152000,
+          "train_nll": 5.985037803649902
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.95933288200517,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.980532930002991,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.95625123441191,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.95027368180289,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.945607120607747,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.969237363155116,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.900178379641147,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.956506369817362,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.95933288200517,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 7736611233792000,
+          "semantic_work": 7736611233792000,
+          "step": 4000,
+          "tokens": 65536000,
+          "train_nll": 5.872498512268066
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.904989905771358,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.922592160620464,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.90006998328047,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.8986487395922484,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.873603844684112,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.891817525407532,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.829274312127382,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.886661770600767,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.904989905771358,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 9670764042240000,
+          "semantic_work": 9670764042240000,
+          "step": 5000,
+          "tokens": 81920000,
+          "train_nll": 5.963207244873047
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.863769490891118,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.882589603598817,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.856662487116667,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.857912936424495,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.820272812406984,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.838896249893878,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.773003457696177,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.83459577101894,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.863769490891118,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 11604916850688000,
+          "semantic_work": 11604916850688000,
+          "step": 6000,
+          "tokens": 98304000,
+          "train_nll": 5.796197891235352
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.8296097652997245,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.851841374347516,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.821153058158292,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.822722314346544,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.7733991498207615,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.792997338321584,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.72752859700995,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.786535331975756,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.8296097652997245,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 13539069659136000,
+          "semantic_work": 13539069659136000,
+          "step": 7000,
+          "tokens": 114688000,
+          "train_nll": 5.773048400878906
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.80540616612401,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.828485059124499,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.796726834917895,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.798206385226823,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.739927164069741,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.759037018979143,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.693899166522897,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.7533862353884615,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.80540616612401,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 15473222467584000,
+          "semantic_work": 15473222467584000,
+          "step": 8000,
+          "tokens": 131072000,
+          "train_nll": 5.794809818267822
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.783773818504249,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.809433919556589,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.773554977061352,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.776053188699527,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.710492452757535,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.728534014553588,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.662333401975047,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.725551197250752,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.783773818504249,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 17407375276032000,
+          "semantic_work": 17407375276032000,
+          "step": 9000,
+          "tokens": 147456000,
+          "train_nll": 5.655549049377441
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.766669707571176,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.792158325686674,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.75619144872415,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.759164527936941,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.683470245665376,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.700211149167444,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.636778928084823,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.698445452704618,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.766669707571176,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 19341528084480000,
+          "semantic_work": 19341528084480000,
+          "step": 10000,
+          "tokens": 163840000,
+          "train_nll": 5.722524642944336
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.75358553680264,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.779862708121294,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.742865348974179,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.745807045057543,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.665483147093255,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.683735149839777,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.618851164719672,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.679673136906786,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.75358553680264,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 21275680892928000,
+          "semantic_work": 21275680892928000,
+          "step": 11000,
+          "tokens": 180224000,
+          "train_nll": 5.641116142272949
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.742634466847502,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.769842461822966,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.731527074291954,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.734584165637543,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.6525525396973535,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.671701620587555,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.604778362074285,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.666865088063787,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.742634466847502,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 23209833701376000,
+          "semantic_work": 23209833701376000,
+          "step": 12000,
+          "tokens": 196608000,
+          "train_nll": 5.6157121658325195
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.734685963543671,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.762646380562321,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.723085941646752,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.726505765982806,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.6429199190733925,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.662117081286851,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.5957101938838605,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.656926200561429,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.734685963543671,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 25143986509824000,
+          "semantic_work": 25143986509824000,
+          "step": 13000,
+          "tokens": 212992000,
+          "train_nll": 5.646722793579102
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.7290545430687265,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.757398837503851,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.717511385784033,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.720653974493511,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.634482378751272,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.6541863339880365,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.586669522614102,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.6485368292014755,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.7290545430687265,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 27078139318272000,
+          "semantic_work": 27078139318272000,
+          "step": 14000,
+          "tokens": 229376000,
+          "train_nll": 5.68803596496582
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.724689335106047,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.753482059051675,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.712994972094376,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.716140154639068,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.628500357188386,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.647731716191629,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.580528575315839,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.642870568623039,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.724689335106047,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 29012292126720000,
+          "semantic_work": 29012292126720000,
+          "step": 15000,
+          "tokens": 245760000,
+          "train_nll": 5.657796859741211
+        },
+        {
+          "diagnostics": {
+            "development": {
+              "batches": 50,
+              "finite": true,
+              "nll": 5.722265739099555,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.751347495448998,
+                  "start": 0,
+                  "tokens": 202496
+                },
+                {
+                  "end": 128,
+                  "nll": 5.710400839011254,
+                  "start": 64,
+                  "tokens": 202496
+                },
+                {
+                  "end": 256,
+                  "nll": 5.713657310968983,
+                  "start": 128,
+                  "tokens": 404992
+                }
+              ],
+              "tokens": 809984
+            },
+            "evaluation_split": "development",
+            "finite": true,
+            "probe_batches": 8,
+            "probe_sampling": "fixed random windows with replacement",
+            "probe_seed": 1729,
+            "train_probe": {
+              "batches": 8,
+              "finite": true,
+              "nll": 5.62618906341595,
+              "position_bins": [
+                {
+                  "end": 64,
+                  "nll": 5.646298892497725,
+                  "start": 0,
+                  "tokens": 32768
+                },
+                {
+                  "end": 128,
+                  "nll": 5.578026080016571,
+                  "start": 64,
+                  "tokens": 32768
+                },
+                {
+                  "end": 256,
+                  "nll": 5.640215640574752,
+                  "start": 128,
+                  "tokens": 65536
+                }
+              ],
+              "tokens": 131072
+            },
+            "version": "duration-diagnostics-v1"
+          },
+          "eval_nll": 5.722265739099555,
+          "eval_tokens": 809984,
+          "executed_work_estimate": 30004512517453824,
+          "semantic_work": 30004512517453824,
+          "step": 15513,
+          "tokens": 254164992,
+          "train_nll": 5.74683952331543
+        }
+      ]
+    }
+  },
+  "contrasts": {
+    "r_minus_u12_nats": 0.006700889819375888,
+    "r_vs_u12_ppl_increase_pct": 0.672339101282324,
+    "r_vs_u6_ppl_reduction_pct": 2.4828470580093116,
+    "fraction_u6_u12_nll_gain_recovered": 0.789563328740727
+  }
+}
