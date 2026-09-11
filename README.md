@@ -3,7 +3,7 @@
 Recurrent-depth Z1T experiments under Extropic's sparse software constraints.
 
 This repository accompanies the technical report
-**[Recurrent Depth in Z1T: An Empirical Quality–Storage Trade-off](paper/main.tex)**.
+**[Recurrent Depth in Z1T: A Quality–Storage Trade-off](paper/main.tex)**.
 It is a software study of unique body storage versus applied depth. It is **not**
 a measurement of TSU energy, silicon area, latent reasoning, or a claim that
 extra recurrence at inference helps an already-trained model.
