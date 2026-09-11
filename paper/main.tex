@@ -3,6 +3,7 @@
 \usepackage{amsmath,amssymb}
 \usepackage{booktabs}
 \usepackage{hyperref}
+\usepackage{xurl}
 \graphicspath{{../reference/paper-figures/}}
 
 \title{Recurrent Depth in Z1T: An Empirical Quality--Storage Trade-off}
@@ -203,18 +204,6 @@ Q_{\mathrm{R}}-Q_{\mathrm{U12}} < \bigl(2-\tfrac{1}{N}\bigr)\varepsilon:
 \]
 additional non-loading energy per round must be smaller than the avoided, amortized bank-loading energy. Quality remains unmatched. U6 is also resident and performs less work than R6$\times$2.
 
-\begin{figure}[t]
-\centering
-\includegraphics[width=\linewidth]{fig3-residency.pdf}
-\caption{Conditional whole-bank replacement schedule if a fabric holds six block
-programs. R6$\times$2 retains the bank; U12 loads two banks each decode round under
-this schedule (not an optimal-cache bound). Panel B plots
-\(\mathrm{speedup}=1+(\text{exposed U12 reload time})/(\text{common non-load compute})\)
-assuming equal non-load compute. Not a TSU measurement. Observed quality is unmatched;
-U6 is also weight-resident and performs less work.}
-\label{fig:residency}
-\end{figure}
-
 \paragraph{What we do not claim.}
 A high energy cost per coupling flash relative to one Gibbs update does not imply that programming dominates per-token energy for this model. Another neural-block application is not an extra Gibbs update under unchanged couplings and conditioning. We did not measure \(Q_{\mathrm{R}}-Q_{\mathrm{U12}}\). Observed quality is unmatched ($\approx 0.81\%$ extra perplexity versus U12). Extropic's published Z1 energy ordering (sample $\ll$ read $\ll$ flash)~\cite{amico2026} motivates treating unique-program size as first-class; it is not an evaluation of R6$\times$2. Quoted Z1T system energy remains dominated by host/FPGA orchestration in published figures, so moving only the sparse body on-chip need not make flashing the system bottleneck.
 
@@ -252,9 +241,9 @@ Mean & 5.883758 & 5.860009 & 5.851902 & $+0.008107$ & $-0.023749$ \\
 \section{Software environment}
 \label{app:env}
 
-All $18$ confirmation runs used NVIDIA H100 80GB HBM3 GPUs. Model arrays used float32 with \texttt{jax\_default\_matmul\_precision=None}. Recorded packages: Python $3.12.14$, JAX/jaxlib $0.11.1$, Equinox $0.13.8$, Optax $0.2.8$, NumPy $2.5.3$. Data identity: prepared-manifest SHA256 \texttt{53a5313d3fb3ae3a95e1a854d929524390e37ce05f32598e783e01014d3ce364}; source-document SHA256 \texttt{c98854af7dae63b01eaf03d29a1d6b66236b312b76ca928d6d7c75987474f588}. Tokenizer: GPT-2 BPE via tiktoken $0.12.0$; \texttt{encoder.json} SHA256 \texttt{196139668be63f3b5d6574427317ae82f612a97c5d1cdaf36ed2256dbf636783}; \texttt{vocab.bpe} SHA256 \texttt{1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5}.
+All $18$ confirmation runs used NVIDIA H100 80GB HBM3 GPUs. Model arrays used float32 with \texttt{jax\_default\_matmul\_precision=None}. Recorded packages: Python $3.12.14$, JAX/jaxlib $0.11.1$, Equinox $0.13.8$, Optax $0.2.8$, NumPy $2.5.3$. Data identity: prepared-manifest SHA256 \path{53a5313d3fb3ae3a95e1a854d929524390e37ce05f32598e783e01014d3ce364}; source-document SHA256 \path{c98854af7dae63b01eaf03d29a1d6b66236b312b76ca928d6d7c75987474f588}. Tokenizer: GPT-2 BPE via tiktoken $0.12.0$; \texttt{encoder.json} SHA256 \path{196139668be63f3b5d6574427317ae82f612a97c5d1cdaf36ed2256dbf636783}; \texttt{vocab.bpe} SHA256 \path{1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5}.
 
-Checksummed metrics live in \texttt{artifacts/claim-a/}. Figures regenerate with \texttt{uv run python scripts/analyze\_claim\_a.py} and \texttt{uv run python scripts/make\_paper\_figures.py}. Full-state checkpoints are not in git. First-wave launcher provenance files inherit the label \texttt{duration-v1} from an earlier launcher; run configs and identities are claim-A. One registered U12 seed-$12$ run was retrained under the same identity after an infrastructure archive failure; it is not a replacement seed. Some earlier development checkpoints were not fully archived.
+Checksummed metrics live in \path{artifacts/claim-a/}. Figures regenerate with \path{uv run python scripts/analyze\_claim\_a.py} and \path{uv run python scripts/make\_paper\_figures.py}. Full-state checkpoints are not in git. First-wave launcher provenance files inherit the label \path{duration-v1} from an earlier launcher; run configs and identities are claim-A. One registered U12 seed-$12$ run was retrained under the same identity after an infrastructure archive failure; it is not a replacement seed. Some earlier development checkpoints were not fully archived.
 
 \section{Development history}
 \label{app:history}
