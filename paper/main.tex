@@ -250,7 +250,7 @@ All $18$ confirmation runs used NVIDIA H100 80GB HBM3 GPUs. Model arrays used fl
   \item \texttt{vocab.bpe} SHA256: \path{1ce1664773c50f3e0cc8842619a93edc4624525b728b188a9e0be33b7726adc5}
 \end{itemize}
 
-Checksummed metrics live in \path{artifacts/claim-a/}. Figures regenerate with \path{uv run python scripts/analyze\_claim\_a.py} and \path{uv run python scripts/make\_paper\_figures.py}. Full-state checkpoints are not in git. First-wave launcher provenance files inherit the label \path{duration-v1} from an earlier launcher; run configs and identities are claim-A. One registered U12 seed-$12$ run was retrained under the same identity after an infrastructure archive failure; it is not a replacement seed. Some earlier development checkpoints were not fully archived.
+Checksummed metrics live in \path{artifacts/claim-a/}. Figures regenerate with \texttt{uv run python} \path{scripts/analyze_claim_a.py} and \texttt{uv run python} \path{scripts/make_paper_figures.py}. Full-state checkpoints are not in git. First-wave launcher provenance files inherit the label \path{duration-v1} from an earlier launcher; run configs and identities are claim-A. One registered U12 seed-$12$ run was retrained under the same identity after an infrastructure archive failure; it is not a replacement seed. Some earlier development checkpoints were not fully archived.
 
 \section{Development history}
 \label{app:history}
