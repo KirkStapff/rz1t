@@ -3,7 +3,8 @@
 Recurrent-depth Z1T experiments under Extropic's sparse software constraints.
 
 This repository accompanies the technical report
-**[Recurrent Depth in Z1T: A Quality–Storage Trade-off](paper/main.tex)**.
+**[Recurrent Depth in Z1T: A Quality–Storage Trade-off](paper/main.pdf)**
+([LaTeX source](paper/main.tex)).
 It is a software study of unique body storage versus applied depth. It is **not**
 a measurement of TSU energy, silicon area, latent reasoning, or a claim that
 extra recurrence at inference helps an already-trained model.
@@ -35,6 +36,7 @@ Primary figure:
 
 Per-seed numbers, protocols, and limitations:
 [`reference/claim-a-results.md`](reference/claim-a-results.md),
+[`paper/main.pdf`](paper/main.pdf),
 [`paper/main.tex`](paper/main.tex).
 
 ## Reproduce analysis (no GPU)
@@ -70,7 +72,8 @@ OWT-subset manifest at `data/owt-subset-256/manifest.json`.
 | `configs/claim-a/` | 18 paper runs (seeds 7–12 × U6 / R6×2 / U12) |
 | `artifacts/` | Checksummed metrics tarballs |
 | `reference/paper-figures/` | Figures 1–5 |
-| `paper/main.tex` | Technical report |
+| `paper/main.pdf` | Compiled technical report |
+| `paper/main.tex` | Technical report source |
 | `runpod/` | Optional GPU launch / archive helpers (dry-run by default) |
 
 ## What this is not
